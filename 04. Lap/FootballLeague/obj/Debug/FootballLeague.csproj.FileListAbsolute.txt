@@ -1,0 +1,6 @@
+C:\SoftUni\OOP\04. Lap\FootballLeague\bin\Debug\FootballLeague.exe.config
+C:\SoftUni\OOP\04. Lap\FootballLeague\bin\Debug\FootballLeague.exe
+C:\SoftUni\OOP\04. Lap\FootballLeague\bin\Debug\FootballLeague.pdb
+C:\SoftUni\OOP\04. Lap\FootballLeague\obj\Debug\FootballLeague.csprojResolveAssemblyReference.cache
+C:\SoftUni\OOP\04. Lap\FootballLeague\obj\Debug\FootballLeague.exe
+C:\SoftUni\OOP\04. Lap\FootballLeague\obj\Debug\FootballLeague.pdb
