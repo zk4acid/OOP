@@ -1,6 +1,0 @@
-C:\SoftUni\OOP\01. DefiningClasses\03. PCCatalog\bin\Debug\_03.PCCatalog.exe.config
-C:\SoftUni\OOP\01. DefiningClasses\03. PCCatalog\bin\Debug\_03.PCCatalog.exe
-C:\SoftUni\OOP\01. DefiningClasses\03. PCCatalog\bin\Debug\_03.PCCatalog.pdb
-C:\SoftUni\OOP\01. DefiningClasses\03. PCCatalog\obj\Debug\03. PCCatalog.csprojResolveAssemblyReference.cache
-C:\SoftUni\OOP\01. DefiningClasses\03. PCCatalog\obj\Debug\_03.PCCatalog.exe
-C:\SoftUni\OOP\01. DefiningClasses\03. PCCatalog\obj\Debug\_03.PCCatalog.pdb

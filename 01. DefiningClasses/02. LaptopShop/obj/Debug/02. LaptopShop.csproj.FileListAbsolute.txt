@@ -1,6 +1,0 @@
-C:\SoftUni\OOP\01. DefiningClasses\02. LaptopShop\bin\Debug\_02.LaptopShop.exe.config
-C:\SoftUni\OOP\01. DefiningClasses\02. LaptopShop\bin\Debug\_02.LaptopShop.exe
-C:\SoftUni\OOP\01. DefiningClasses\02. LaptopShop\bin\Debug\_02.LaptopShop.pdb
-C:\SoftUni\OOP\01. DefiningClasses\02. LaptopShop\obj\Debug\02. LaptopShop.csprojResolveAssemblyReference.cache
-C:\SoftUni\OOP\01. DefiningClasses\02. LaptopShop\obj\Debug\_02.LaptopShop.exe
-C:\SoftUni\OOP\01. DefiningClasses\02. LaptopShop\obj\Debug\_02.LaptopShop.pdb

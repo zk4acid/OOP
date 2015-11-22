@@ -1,9 +1,0 @@
-C:\SoftUni\OOP\04. Lap\FootballLeague\bin\Debug\FootballLeague.exe.config
-C:\SoftUni\OOP\04. Lap\FootballLeague\bin\Debug\FootballLeague.exe
-C:\SoftUni\OOP\04. Lap\FootballLeague\bin\Debug\FootballLeague.pdb
-C:\SoftUni\OOP\04. Lap\FootballLeague\obj\Debug\FootballLeague.csprojResolveAssemblyReference.cache
-C:\SoftUni\OOP\04. Lap\FootballLeague\obj\Debug\FootballLeague.exe
-C:\SoftUni\OOP\04. Lap\FootballLeague\obj\Debug\FootballLeague.pdb
-C:\Users\Todor Yordanov\Desktop\FootballLeague\bin\Debug\FootballLeague.exe.config
-C:\Users\Todor Yordanov\Desktop\FootballLeague\obj\Debug\FootballLeague.exe
-C:\Users\Todor Yordanov\Desktop\FootballLeague\obj\Debug\FootballLeague.pdb
