@@ -19,65 +19,19 @@ namespace Animals
                 new Tomcat("Pesho", 5),
                 new Kitten("Marta", 6) };
 
-            Console.WriteLine("Cats: ");
-            double averageAge = 0;
-            int counter = 0;
-            foreach (var animal in animals.Where(a => a.GetType() == typeof(Cat)))
-            {
-                Console.WriteLine("{0} Age: {1} - {2}", animal.Name, animal.Age, animal.Gender);
-                averageAge += animal.Age;
-                counter++;
-            }
-            Console.WriteLine("Average age: {0}", averageAge / counter);
+            animals.ToList().ForEach(Console.WriteLine);
             Console.WriteLine();
 
-            Console.WriteLine("Tomcats: ");
-            averageAge = 0;
-            counter = 0;
-            foreach (var animal in animals.Where(a => a.GetType() == typeof(Tomcat)))
-            {
-                Console.WriteLine("{0} Age: {1} - {2}", animal.Name, animal.Age, animal.Gender);
-                averageAge += animal.Age;
-                counter++;
-            }
-            Console.WriteLine("Average age: {0}", averageAge / counter);
-            Console.WriteLine();
-
-            Console.WriteLine("Kitten: ");
-            averageAge = 0;
-            counter = 0;
-            foreach (var animal in animals.Where(a => a.GetType() == typeof(Kitten)))
-            {
-                Console.WriteLine("{0} Age: {1} - {2}", animal.Name, animal.Age, animal.Gender);
-                averageAge += animal.Age;
-                counter++;
-            }
-            Console.WriteLine("Average age: {0}", averageAge / counter);
-            Console.WriteLine();
-
-            Console.WriteLine("Dogs: ");
-            averageAge = 0;
-            counter = 0;
-            foreach (var animal in animals.Where(a => a.GetType() == typeof(Dog)))
-            {
-                Console.WriteLine("{0} Age: {1} - {2}", animal.Name, animal.Age, animal.Gender);
-                averageAge += animal.Age;
-                counter++;
-            }
-            Console.WriteLine("Average age: {0}", averageAge / counter);
-            Console.WriteLine();
-
-            Console.WriteLine("Frogs: ");
-            averageAge = 0;
-            counter = 0;
-            foreach (var animal in animals.Where(a => a.GetType() == typeof(Frog)))
-            {
-                Console.WriteLine("{0} Age: {1} - {2}", animal.Name, animal.Age, animal.Gender);
-                averageAge += animal.Age;
-                counter++;
-            }
-            Console.WriteLine("Average age: {0}", averageAge / counter);
-            Console.WriteLine();
+            animals
+                .GroupBy(animal => animal.GetType().Name)
+                .Select(group => new
+                {
+                    AnimalName = group.Key,
+                    AverageAge = group.Average(a => a.Age)
+                })
+                .OrderByDescending(group => group.AverageAge)
+                .ToList()
+                .ForEach(group => Console.WriteLine($"{group.AnimalName}'s average age is: {group.AverageAge}"));
         }
     }
 }

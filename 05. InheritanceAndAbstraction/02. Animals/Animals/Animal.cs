@@ -1,4 +1,6 @@
-﻿namespace Animals
+﻿using System.Text;
+
+namespace Animals
 {
     public abstract class Animal : ISoundProducible
     {
@@ -16,5 +18,12 @@
         public string Gender { get; set; }
 
         public abstract void ProduceSound();
+
+        public override string ToString()
+        {
+            StringBuilder print = new StringBuilder();
+            print.AppendFormat("{0} Age: {1} - {2}", this.Name, this.Age, this.Gender);
+            return print.ToString();
+        }
     }
 }

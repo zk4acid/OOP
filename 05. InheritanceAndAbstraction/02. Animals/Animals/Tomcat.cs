@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Text;
 
 namespace Animals
 {
@@ -13,6 +14,13 @@ namespace Animals
         public override void ProduceSound()
         {
             Console.WriteLine("I am a Tomcat: Miayyyyyyyy");
+        }
+
+        public override string ToString()
+        {
+            StringBuilder print = new StringBuilder();
+            print.AppendFormat("{0} Age: {1} - {2}", this.Name, this.Age, Gender);
+            return print.ToString();
         }
     }
 }
