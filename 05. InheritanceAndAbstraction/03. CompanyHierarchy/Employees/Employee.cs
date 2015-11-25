@@ -9,11 +9,8 @@ namespace CompanyHierarchy.Employees
         private decimal salary;
         private string department;
 
-        public Employee(int id, string firstName, string lastName, decimal salary, string department)
+        public Employee(int id, string firstName, string lastName, decimal salary, string department) : base(id, firstName, lastName)
         {
-            this.Id = id;
-            this.FirstName = firstName;
-            this.LastName = lastName;
             this.Salary = salary;
             this.Department = department;
         }

@@ -7,11 +7,8 @@ namespace CompanyHierarchy
     class Customer : Person, ICustomer
     {
         private decimal totalAmount;
-        public Customer(int id, string firstName, string lastName, decimal totalAmount)
+        public Customer(int id, string firstName, string lastName, decimal totalAmount) : base(id, firstName, lastName)
         {
-            this.Id = id;
-            this.FirstName = firstName;
-            this.LastName = lastName;
             this.TotalAmount = totalAmount;
         }
 

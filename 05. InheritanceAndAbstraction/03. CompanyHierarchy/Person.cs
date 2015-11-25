@@ -9,6 +9,13 @@ namespace CompanyHierarchy
         private string firstName;
         private string lastName;
 
+        public Person(int id, string firstName, string lastName)
+        {
+            this.Id = id;
+            this.FirstName = firstName;
+            this.LastName = lastName;
+        }
+
         public int Id
         {
             get { return this.id; }

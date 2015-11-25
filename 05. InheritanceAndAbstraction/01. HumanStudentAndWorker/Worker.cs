@@ -6,10 +6,8 @@
         private decimal weekSalary;
         private double workHoursPerDay;
 
-        public Worker(string firstName, string lastName, decimal weekSalary, double workHoursPerDay)
+        public Worker(string firstName, string lastName, decimal weekSalary, double workHoursPerDay) : base(firstName, lastName)
         {
-            this.FirstName = firstName;
-            this.LastName = lastName;
             this.WeekSalary = weekSalary;
             this.WorkHoursPerDay = workHoursPerDay;
         }
