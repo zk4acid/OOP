@@ -1,9 +1,10 @@
 ﻿using System.Collections.Generic;
 using System.Text;
+using CompanyHierarchy.Interfaces;
 
 namespace CompanyHierarchy.Employees
 {
-    class Developer : RegularEmployee
+    class Developer : RegularEmployee, IDeveloper
     {
         public Developer(int id, string firstName, string lastName, decimal salary, string department, List<Project> projects) : base(id, firstName, lastName, salary, department)
         {

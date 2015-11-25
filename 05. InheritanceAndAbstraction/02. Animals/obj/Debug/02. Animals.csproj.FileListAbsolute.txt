@@ -1,0 +1,6 @@
+C:\Users\Todor Yordanov\Documents\GitHub\OOP\05. InheritanceAndAbstraction\02. Animals\bin\Debug\_02.Animals.exe.config
+C:\Users\Todor Yordanov\Documents\GitHub\OOP\05. InheritanceAndAbstraction\02. Animals\bin\Debug\_02.Animals.exe
+C:\Users\Todor Yordanov\Documents\GitHub\OOP\05. InheritanceAndAbstraction\02. Animals\bin\Debug\_02.Animals.pdb
+C:\Users\Todor Yordanov\Documents\GitHub\OOP\05. InheritanceAndAbstraction\02. Animals\obj\Debug\02. Animals.csprojResolveAssemblyReference.cache
+C:\Users\Todor Yordanov\Documents\GitHub\OOP\05. InheritanceAndAbstraction\02. Animals\obj\Debug\_02.Animals.exe
+C:\Users\Todor Yordanov\Documents\GitHub\OOP\05. InheritanceAndAbstraction\02. Animals\obj\Debug\_02.Animals.pdb

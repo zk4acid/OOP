@@ -1,9 +1,10 @@
 ﻿using System;
 using System.Text;
+using CompanyHierarchy.Interfaces;
 
 namespace CompanyHierarchy
 {
-    class Project
+    class Project : IProject
     {
         private const string DefaultProjectState = "open";
         private string name;

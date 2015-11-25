@@ -1,0 +1,6 @@
+C:\Users\Todor Yordanov\Documents\GitHub\OOP\05. InheritanceAndAbstraction\03. CompanyHierarchy\bin\Debug\_03.CompanyHierarchy.exe.config
+C:\Users\Todor Yordanov\Documents\GitHub\OOP\05. InheritanceAndAbstraction\03. CompanyHierarchy\bin\Debug\_03.CompanyHierarchy.exe
+C:\Users\Todor Yordanov\Documents\GitHub\OOP\05. InheritanceAndAbstraction\03. CompanyHierarchy\bin\Debug\_03.CompanyHierarchy.pdb
+C:\Users\Todor Yordanov\Documents\GitHub\OOP\05. InheritanceAndAbstraction\03. CompanyHierarchy\obj\Debug\03. CompanyHierarchy.csprojResolveAssemblyReference.cache
+C:\Users\Todor Yordanov\Documents\GitHub\OOP\05. InheritanceAndAbstraction\03. CompanyHierarchy\obj\Debug\_03.CompanyHierarchy.exe
+C:\Users\Todor Yordanov\Documents\GitHub\OOP\05. InheritanceAndAbstraction\03. CompanyHierarchy\obj\Debug\_03.CompanyHierarchy.pdb

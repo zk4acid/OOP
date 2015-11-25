@@ -22,7 +22,7 @@ namespace Animals
             Console.WriteLine("Cats: ");
             double averageAge = 0;
             int counter = 0;
-            foreach (var animal in animals.Where(a => a.GetType().ToString() == "Animals.Cat"))
+            foreach (var animal in animals.Where(a => a.GetType() == typeof(Cat)))
             {
                 Console.WriteLine("{0} Age: {1} - {2}", animal.Name, animal.Age, animal.Gender);
                 averageAge += animal.Age;
@@ -34,7 +34,7 @@ namespace Animals
             Console.WriteLine("Tomcats: ");
             averageAge = 0;
             counter = 0;
-            foreach (var animal in animals.Where(a => a.GetType().ToString() == "Animals.Tomcat"))
+            foreach (var animal in animals.Where(a => a.GetType() == typeof(Tomcat)))
             {
                 Console.WriteLine("{0} Age: {1} - {2}", animal.Name, animal.Age, animal.Gender);
                 averageAge += animal.Age;
@@ -46,7 +46,7 @@ namespace Animals
             Console.WriteLine("Kitten: ");
             averageAge = 0;
             counter = 0;
-            foreach (var animal in animals.Where(a => a.GetType().ToString() == "Animals.Kitten"))
+            foreach (var animal in animals.Where(a => a.GetType() == typeof(Kitten)))
             {
                 Console.WriteLine("{0} Age: {1} - {2}", animal.Name, animal.Age, animal.Gender);
                 averageAge += animal.Age;
@@ -58,7 +58,7 @@ namespace Animals
             Console.WriteLine("Dogs: ");
             averageAge = 0;
             counter = 0;
-            foreach (var animal in animals.Where(a => a.GetType().ToString() == "Animals.Dog"))
+            foreach (var animal in animals.Where(a => a.GetType() == typeof(Dog)))
             {
                 Console.WriteLine("{0} Age: {1} - {2}", animal.Name, animal.Age, animal.Gender);
                 averageAge += animal.Age;
@@ -70,7 +70,7 @@ namespace Animals
             Console.WriteLine("Frogs: ");
             averageAge = 0;
             counter = 0;
-            foreach (var animal in animals.Where(a => a.GetType().ToString() == "Animals.Frog"))
+            foreach (var animal in animals.Where(a => a.GetType() == typeof(Frog)))
             {
                 Console.WriteLine("{0} Age: {1} - {2}", animal.Name, animal.Age, animal.Gender);
                 averageAge += animal.Age;

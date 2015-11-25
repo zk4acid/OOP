@@ -1,9 +1,10 @@
 ﻿using System;
 using System.Text;
+using CompanyHierarchy.Interfaces;
 
 namespace CompanyHierarchy
 {
-    class Customer : Person
+    class Customer : Person, ICustomer
     {
         private decimal totalAmount;
         public Customer(int id, string firstName, string lastName, decimal totalAmount) : base(id, firstName, lastName)

@@ -1,0 +1,1 @@
+C:\Users\Todor Yordanov\Documents\GitHub\OOP\05. InheritanceAndAbstraction\01. HumanStudentAndWorker\bin\Debug\_01.HumanStudentAndWorker.exe.config

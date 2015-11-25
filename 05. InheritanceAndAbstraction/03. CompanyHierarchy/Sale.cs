@@ -1,9 +1,10 @@
 ﻿using System;
 using System.Text;
+using CompanyHierarchy.Interfaces;
 
 namespace CompanyHierarchy
 {
-    class Sale
+    class Sale : ISale
     {
         private string productName;
         private DateTime date;
