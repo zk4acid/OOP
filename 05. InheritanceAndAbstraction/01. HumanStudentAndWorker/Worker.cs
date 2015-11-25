@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-namespace HumanStudentAndWorker
+﻿namespace HumanStudentAndWorker
 {
     class Worker : Human
     {
@@ -9,8 +6,10 @@ namespace HumanStudentAndWorker
         private decimal weekSalary;
         private double workHoursPerDay;
 
-        public Worker(string firstName, string lastName, decimal weekSalary, double workHoursPerDay) : base (firstName, lastName)
+        public Worker(string firstName, string lastName, decimal weekSalary, double workHoursPerDay)
         {
+            this.FirstName = firstName;
+            this.LastName = lastName;
             this.WeekSalary = weekSalary;
             this.WorkHoursPerDay = workHoursPerDay;
         }

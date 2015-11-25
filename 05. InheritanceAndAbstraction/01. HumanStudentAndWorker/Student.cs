@@ -7,8 +7,10 @@ namespace HumanStudentAndWorker
     {
         private string facultyNumber;
 
-        public Student(string firstName, string lastName, string facultyNumber) : base(firstName, lastName)
+        public Student(string firstName, string lastName, string facultyNumber)
         {
+            this.FirstName = firstName;
+            this.LastName = lastName;
             this.FacultyNumber = facultyNumber;
         }
 
